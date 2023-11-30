@@ -2,8 +2,8 @@
 
 Forked from: https://github.com/csc309-fall-2021/team19 \
 Contributors: Shaohong Chen, Dechen Han, Jinyang Zhao, You Peng \
-The weblink may be expired due to the Heroku maintenance cost, please check the picture for reference: Display.jpeg
-
+The weblink may be expired due to the Heroku maintenance cost, please check the picture for reference: 
+![Example Image](Display.jpeg)
 ## Online Deployment
 The online deployment is available on heroku
 [https://event-show-team19.herokuapp.com/](https://event-show-team19.herokuapp.com/)
