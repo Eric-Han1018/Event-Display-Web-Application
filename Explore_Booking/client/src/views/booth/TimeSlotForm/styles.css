@@ -1,0 +1,17 @@
+/* Styles for the Student React component */
+
+/* .TimeSlot {
+  justify-content: center;
+} */
+
+.TimeSlot .MuiGrid-root {
+  text-align: center;
+}
+
+.MuiButton-root.timeslot_button-grid {
+  background-color: #457474;
+}
+
+.timeslot_button-grid {
+  line-height: 5;
+}

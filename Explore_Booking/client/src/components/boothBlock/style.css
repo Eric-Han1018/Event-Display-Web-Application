@@ -1,0 +1,100 @@
+.boothComponent {
+    height: 45ex;
+    position: relative;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.boothImg{
+    height: 15ex;
+    font-size: 20px;
+    font-weight: 400;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    margin: 0%;
+}
+
+.boothImg::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    background-size: cover;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+}
+
+.boothImg .boothName{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    width: 100%;
+}
+
+.boothImg:hover{
+    cursor: pointer;
+}
+
+.boothIntro {
+    color: rgb(83, 83, 83);
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.linkButton {
+    color: rgb(65, 65, 65);
+    font-weight: 530;
+    font-size: 14px;
+
+    background-color: rgb(223, 223, 223);
+    border:rgb(223, 223, 223) solid;
+    border-radius: 5px;
+
+    height: 10%;
+    width: 35%;
+
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.linkButton:hover {
+    background-color: rgb(104, 104, 104);
+    border:rgb(104, 104, 104) solid;
+    color: white;
+    font-weight: 530;
+    font-size: 14px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.linkButton:active{
+    background-color: rgb(49, 49, 49);
+    border:rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    font-weight: 530;
+    font-size: 14px;
+}
+
+.linkButton:disabled {
+    background-color: white;
+    color: lightgray;
+    border: lightgray solid 1px;
+}

@@ -1,0 +1,101 @@
+.manageUsersContainer{
+    background-color:rgb(221, 221, 221);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.manageUsers{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2ex;
+    border-top: rgb(230, 230, 230) 2px solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 120px;
+    background-color: white;
+}
+
+.titleRow{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: calc(100% / 4);
+    font-size: 20px;
+    font-weight: 650;
+}
+
+h1{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Operation{
+    color: rgb(65, 65, 65);
+    font-weight: 530;
+    font-size: 14px;
+    background-color: rgb(223, 223, 223);
+    border:rgb(223, 223, 223) solid;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.Operation:hover {
+    background-color: rgb(104, 104, 104);
+    border:rgb(104, 104, 104) solid;
+    color: white;
+    font-weight: 530;
+    font-size: 14px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.Operation:active{
+    background-color: rgb(49, 49, 49);
+    border:rgb(63, 63, 63) solid;
+    color: rgb(255, 255, 255);
+    font-weight: 530;
+    font-size: 14px;
+}
+
+.NewUserInput {
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: 0;
+}
+
+.BackButton{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+}
+
+.BackButton:hover {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    font-weight: 530;
+    font-size: 14px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.BackButton:active{
+    background-color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
+    font-weight: 530;
+    font-size: 14px;
+}
+
+#userTableTitle{
+    margin-bottom: 20px;
+}

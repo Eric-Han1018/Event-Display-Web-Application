@@ -1,0 +1,15 @@
+.UserInfoCol{
+    display: inline-block;
+    width: calc(100% / 4);
+    text-align: center;
+}
+
+.userBlock{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.userBlock .Operation {
+    margin-left: 5px;
+    margin-right: 5px;
+}

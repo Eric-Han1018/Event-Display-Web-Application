@@ -1,0 +1,58 @@
+.topComponent {
+    height: 19ex;
+    width: 30ex;
+    position: relative;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 12px;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.topImg{
+    height: 20ex;
+    font-size: 20px;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    margin: 0%;
+}
+
+.topImg::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    background-size: cover;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+}
+
+.topImg .topName{
+    height: inherit;
+    top: 20%;
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+    width: 100%;
+}
+
+.topImg:hover{
+    cursor: pointer;
+}
+
+.topIntro {
+    color: rgb(83, 83, 83);
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 700;
+    font-size: 16px;
+}
+

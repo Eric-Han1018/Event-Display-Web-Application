@@ -1,0 +1,142 @@
+.header {
+    width: 80%;
+    height: 7ex;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top:1ex;
+}
+
+.Home {
+    display: inline-block;
+    position: absolute;
+    width:60%;
+    line-height: 6ex;
+}
+
+.CurrentReservation {
+    position: absolute;
+    width: 10%;
+    right: calc(10% + 200px);
+}
+
+
+.AvatarSlot{
+    position: absolute;
+    width: 200px;
+    right: 10%;
+}
+
+#userMetaBlock{
+    margin-top: 5px;
+    display: inline-block;
+    align-content: right;
+    width: 100px;
+    right: 0px;
+}
+
+.userMeta{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    position: relative;
+    display: block;
+    right: 0px;
+    text-align: right;
+    font-weight: 700;
+    line-height: 2ex;
+}
+
+.Avatar{
+    position: absolute;
+    right: 0px;
+    background-color: rgb(121, 96, 96);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: rgb(214, 214, 214) solid 1px;
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.Avatar:hover{
+    cursor: pointer;
+}
+
+.logOutBtn{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+	position: absolute;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    width: 100px;
+    height: 25px;
+    right: 12px;
+    top: 105px;
+	opacity: 0;
+	background-color: #f1f1f1;
+	z-index: 1;
+}
+
+.ProfileBtn{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: absolute;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+    right: 12px;
+    top:65px;
+	opacity: 0;
+	background-color: #f1f1f1;
+	z-index: 1;
+}
+
+.logOutDrop:hover .ProfileBtn{
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.ProfileBtn:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.ProfileBtn:active{
+	background-color: #c2c2c2;
+}
+
+.logOutDrop:hover .logOutBtn{
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.logOutBtn:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.logOutBtn:active{
+	background-color: #c2c2c2;
+}
+
+.SignInButton{
+    border-radius: 10px;
+	color: rgb(0, 0, 0);
+	height: 6ex;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.SignInButton:hover{
+    cursor: pointer;
+    background-color: rgb(192, 192, 192);
+    transition: 0.2s;
+}
+
+.SignInButton:active{
+    background-color: rgb(153, 153, 153);
+}

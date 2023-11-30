@@ -1,0 +1,10 @@
+.exhibition_form{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.exhibition_form #eventFIle{
+    margin-top: 20px;
+    display: block;
+}

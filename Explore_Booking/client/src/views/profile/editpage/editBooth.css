@@ -1,0 +1,34 @@
+.editBoothContainer{
+    background-color:rgb(221, 221, 221);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.editBoothPage{
+    padding-top: 50px;
+    border-top: rgb(230, 230, 230) 2px solid;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 120px;
+    background-color: white;
+}
+
+.MuiButton-root.edit_booth_button {
+    position: relative;
+    background-color: #d0d4d8;
+    width: 100px;
+    display: display-internal;
+    margin-top: 25px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.editBoothPageButton{
+    text-align: center;
+}
+
+#editTitle{
+    margin-left: 10%;
+}

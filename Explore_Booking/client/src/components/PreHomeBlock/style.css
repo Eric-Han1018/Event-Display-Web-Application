@@ -1,0 +1,63 @@
+.EventBlock {
+    height: 60ex;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.EventImg{
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 12px;
+    height: 37ex;
+    font-size: 20px;
+    font-weight: 400;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    margin: 0%;
+}
+
+.EventImg::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    background-size: cover;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    border-radius: 12px;
+    bottom: 0%;
+}
+
+.EventName{
+    position:absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: -20%;
+    font-size: 30px;
+    font-weight: 800;
+    width: 100%;
+}
+
+.EventImg:hover{
+    cursor: pointer;
+}
+
+.EventIntro {
+    text-align: center;
+    white-space: normal;
+    position:absolute;
+    color: rgb(66, 66, 66);
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 700;
+    font-size: 18px;
+    width: calc(300px - 20%);
+}

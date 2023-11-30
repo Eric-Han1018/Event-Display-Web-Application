@@ -1,0 +1,128 @@
+.homeBanner {
+    position: relative;
+    width: 100%;
+    height: 75ex;
+    overflow: hidden;
+    padding-top: 5ex;
+    padding-bottom: 5ex;
+}
+
+.homeBanner::before {
+    content: "";
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    background-size: cover;
+}
+
+.homeBanner #homeBannerPic{
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.homeBanner .Theme {
+    color: white;
+    top: 20%;
+    font-size: 5em;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.homeBanner .Intro {
+    top: 25%;
+    font-size: 2em;
+    color: white;
+    font-weight: 200;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.homeBanner button {
+    top: 40%;
+    left: 41%;
+    font-size: 1em;
+    position: relative;
+    text-align: center;
+}
+
+.homeBanner .Top3title {
+    position: relative;
+    color: white;
+    margin-left: 15%;
+    margin-right: 10%;
+    padding-left: 0.5%;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.top {
+    position: relative;
+    /* overflow: hidden; */
+    width: 80%;
+    display: grid;
+    
+}
+
+.homeBanner button {
+    width: 10em;
+    height: 3em;
+}
+
+.TopThreeContainer {
+    width: 30%;
+}
+
+.TopThreeContainer::before{
+    content: "";
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 2%;
+    right: 14%;
+    left: 67%;
+    bottom: 2%;
+    background-size: cover;
+    width: 370px;
+}
+
+.EventMetaContainer{
+    width: 70%;
+}
+
+.BannerContainer{
+    padding-left: 15%;
+    padding-right: 13%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#HomePageInstruction{
+    color: rgb(99, 99, 99);
+    padding-top: 10px;
+    text-align: center;
+    height: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    border-left: 3px rgb(168, 168, 168) dashed;
+    border-right: 3px rgb(168, 168, 168) dashed;
+}
+
+.NoEventWarn{
+    position:relative;
+    color: white;
+    font-size: 18px;
+    left:20%;
+}

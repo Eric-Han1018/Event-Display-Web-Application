@@ -1,0 +1,87 @@
+.PreHomebanner {
+    position: relative;
+    width: 100%;
+    height: 20ex;
+    overflow: hidden;
+    bottom: 0px;
+    padding-top: 8ex;
+    padding-bottom: 5ex;
+}
+
+.PreHomebanner #bannerPic{
+    display: block;
+    position: absolute;
+    width: 100%;
+
+    top: 0px;
+    z-index: -1;
+}
+
+.PreHomebanner .Theme {
+    color: rgb(118, 142, 189);
+    font-size: 5em;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.PreHomebanner .Intro {
+    font-size: 2em;
+    color: rgb(118, 142, 189);
+    font-weight: 200;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.explore .title {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 0.5%;
+    font-size: 30px;
+    text-align: left;
+    line-height: 50px;
+}
+
+.PreHomesubStations {
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    overflow: auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.explore button {
+    width: 10em;
+    height: 3em;
+}
+
+.explore {
+    margin-bottom: 10ex;
+}
+
+.SignInButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+	color: rgb(0, 0, 0);
+	height: 6ex;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.SignInButton:hover{
+    cursor: pointer;
+    background-color: rgb(192, 192, 192);
+    transition: 0.2s;
+}
+
+.SignInButton:active{
+    background-color: rgb(153, 153, 153);
+}

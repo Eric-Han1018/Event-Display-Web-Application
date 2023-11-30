@@ -1,0 +1,236 @@
+#boothBanner{
+    position: relative;
+    width: 100%;
+    height: 40ex;
+    overflow: hidden;
+    padding-top: 5ex;
+    padding-bottom: 5ex;
+
+    /* margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: black; */
+}
+
+#boothBanner::before {
+    content: "";
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    background-size: cover;
+}
+
+#boothBanner #boothBannerPic{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    z-index: -1;
+}
+
+#boothBanner .boothName {
+    color: white;
+    top: 20%;
+    font-size: 6em;
+    font-weight: 700;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#boothBanner .waitlist {
+    top: 30%;
+    font-size: 3em;
+    color: white;
+    font-weight: 250;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#userBoothEverything{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.halfHalfContainer{
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    width: 50%;
+    min-height: 200px;
+    max-height: 400px;
+}
+
+#BoothBasicInfo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#introduction{
+    margin-top:0;
+    height: 350px;
+    overflow: auto;
+}
+
+#timeslots{ 
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.timeSlotsTableContainer{
+    min-height: 3cm;
+    max-height: 10cm;
+    overflow: auto;
+}
+
+#timeslotsitem {
+    position: relative;
+    display: grid;
+    grid-template-columns:repeat(2, 50%);
+}
+
+.CancelButton{
+    float: right
+}
+
+#commentsContainer {
+	margin: 10px;
+    margin-left: 50px;
+    width: 100%;
+    min-height: 200px;
+    max-height: 350px;
+    overflow: auto;
+    display: inline-block;
+}
+
+
+.UpperParts{
+    min-height: 490px;
+}
+
+.CurrentStatus{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.newCommentBlock{
+    margin-left: 50px;
+}
+
+.comment {
+	background-color: white;
+	/* border: 1px solid grey; */
+	height: 100px;
+    overflow: auto;
+	
+    border-radius: 10%;
+    border: 2px solid #acaeb0;
+    -webkit-border-radius: 1em;
+    margin: 3px;
+}
+
+/* For the div that holds the tweet icon */
+.userIconContainer {
+	/* Add properties below */
+    top: 0px;
+	width: 80px;
+    display: inline-block;
+    min-height: 80px;
+}
+
+.userIconContainer:hover{
+    cursor: pointer;
+}
+
+.userIcon {
+	/* Add properties below */
+	width: 60px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 50%;
+}
+
+.commentContentContainer {
+	margin: 1px;
+	width: 70%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.userName {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.userComment {
+    white-space:break-word;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Comments-grid {
+    float:right;
+}
+
+.CommentArea{
+    position:relative;
+    display: inline-block;
+    width: 90%;
+}
+
+.OperationArea{
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    right: 0px;
+}
+
+.deleteCommentButton{
+    color: rgb(65, 65, 65);
+    font-weight: 530;
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+    height: 35px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.deleteCommentButton:hover {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    font-weight: 530;
+    font-size: 14px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.deleteCommentButton:active{
+    background-color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
+    font-weight: 530;
+    font-size: 14px;
+}
+
+.deleteCommentButton:disabled {
+    background-color: white;
+    color: lightgray;
+}

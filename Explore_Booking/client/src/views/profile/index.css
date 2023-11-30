@@ -1,0 +1,164 @@
+.title {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 0.5%;
+    font-size: 25px;
+    text-align: left;
+    line-height: 50px;
+}
+.username {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 0.5%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.profiletotal {
+    position: relative;
+    justify-content: center;
+    background-size:cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+.photo {
+    width: 10em;
+    height: 8em;
+    margin-bottom: 10%;
+}
+
+/* .editbutton {
+    margin-left: 20%;
+} */
+
+.editbooth {
+    margin-top: 20%;
+}
+
+.editexhibition {
+    margin-top:20%;
+}
+
+.managebutton {
+    margin-top:20%
+}
+
+.newexhibitionbutton {
+    margin-top:20%
+}
+
+.newboothbutton {
+    margin-top:20%
+}
+
+.editboothbutton {
+    margin-top:20%
+}
+
+.email {
+    /* margin-left: 10%; */
+    margin-right: 10%;
+    padding-left: 0.5%;
+    font-size: 15px;
+    text-align: left;
+    line-height: 50px;
+}
+
+.phone {
+    /* margin-left: 10%; */
+    margin-right: 10%;
+    padding-left: 0.5%;
+    font-size: 15px;
+    text-align: left;
+    line-height: 50px;
+}
+
+.identity {
+    /* margin-left: 10%; */
+    margin-right: 10%;
+    padding-left: 0.5%;
+    font-size: 15px;
+    text-align: left;
+    line-height: 50px;
+}
+
+.leftpart {
+    position: relative;
+    overflow: hidden;
+    width: 12%;
+    height: 500px;
+    margin-left: 5%;
+    /* margin-top: 5%; */
+    margin-right: 5%;
+    display: inline-block;
+}
+
+.profile {
+    position: relative;
+    overflow: hidden;
+    width: 20%;
+    height: 500px;
+    padding-left: 5%;
+    padding-right: 8%;
+    padding-top: 50px;
+    /* margin-right: 5%; */
+    display: inline-block;
+    background-color: rgb(218, 218, 218);
+}
+
+.appointments {
+    float: right;
+    position: relative;
+    overflow: auto;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.booth {
+    float: right;
+    position: relative;
+    overflow: auto;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.exhibition {
+    float: right;
+    position: relative;
+    overflow: auto;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.list li {
+    margin-right: 10%;
+    padding-left: 0.5%;
+    font-size: 20px;
+    text-align: left;
+    line-height: 50px;
+}
+
+#profileBanner{
+    width: 100%;
+    bottom: 0px;
+}
+
+#bannerContainer{
+    height: 80px;
+    overflow: hidden;
+}
+
+.exhibitionStatusBtn{
+    width: 80px;
+    margin-right: 30px;
+}

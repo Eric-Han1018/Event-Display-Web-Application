@@ -1,0 +1,20 @@
+.booth_form{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.booth_form input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.booth_form label{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.inputPicture{
+    margin-top: 10px;
+}

@@ -1,0 +1,13 @@
+/* Styles for the Input React component */
+.input {
+  width: 280px;
+}
+
+.input .MuiInput-underline:after {
+  border-color: #f5f5f5;
+}
+
+.input .MuiFormLabel-root,
+.input .MuiFormLabel-root.Mui-focused {
+  color: #5c5f68;
+}
