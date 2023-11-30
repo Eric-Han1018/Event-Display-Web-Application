@@ -1,5 +1,8 @@
 # team 19 - CSC309 Group Project README - Phase 2
 
+## Forked from: https://github.com/Eric-Han1018/Programming-on-the-Web
+## Contributors: Shaohong Chen, Dechen Han, Jinyang Zhao, You Peng
+
 ## Online Deployment
 The online deployment is available on heroku
 [https://event-show-team19.herokuapp.com/](https://event-show-team19.herokuapp.com/)
